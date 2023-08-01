@@ -1,6 +1,6 @@
 <template>
     <div class="text-center rounded-xl bg-primary-light dark:bg-primary-dark w-1/2 my-24 font-KumbhSans p-12 dark:text-white">
-        <p class="text-6xl">Hello there!</p>
+        <p style="font-size: 4.4vw;">Hello there!</p>
         <br><br>
         <p class="text-lg">Thanks for visiting the website!</p>
         <br>
