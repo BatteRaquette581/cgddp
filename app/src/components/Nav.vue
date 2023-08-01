@@ -10,6 +10,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import light from "@/assets/light.svg";
+import dark from "@/assets/dark.svg";
 
 var toggleButtonSvg: string;
 const forceRender = ref(0);
@@ -18,10 +20,10 @@ const forceRender = ref(0);
 function changeTheme(theme: string): void {
     if (theme == "dark") {
         document.documentElement.classList.add('dark');
-        toggleButtonSvg = "src/assets/dark.svg";
+        toggleButtonSvg = dark;
     } else {
         document.documentElement.classList.remove('dark');
-        toggleButtonSvg = "src/assets/light.svg";
+        toggleButtonSvg = light;
     }
     forceRender.value++; // update element
 }
