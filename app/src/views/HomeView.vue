@@ -4,6 +4,8 @@
 <template>
     <main>
         <Nav />
-        <Welcome />
+        <div class="flex justify-center">
+            <Welcome />
+        </div>
     </main>
 </template>
