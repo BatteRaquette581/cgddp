@@ -3,5 +3,7 @@
 
 <template>
     <main>
+        <Nav />
+        <Welcome />
     </main>
 </template>
