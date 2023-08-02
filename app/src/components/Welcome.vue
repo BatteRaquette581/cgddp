@@ -4,7 +4,7 @@
         <br><br>
         <p class="text-lg">Thanks for visiting the website!</p>
         <br>
-        <p class="text-md">At the moment, the website is not finished, but feel free to come back any time to see if the website is finished.</p>
+        <p class="text-md">Hey, this a GDDP (Geometry Dash Demon Progression) for ChillGDPS (click on the discord icon in the navigation bar to join the discord server). Feel free to look around, see some levels on the list (click on the list icon), maybe beat them, and overall have a fun time.</p>
         <br><br>
         <p class="text-lg">Anyways, have a good day! - xoxo, batte</p>
     </div>

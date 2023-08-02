@@ -4,7 +4,7 @@
 <template>
     <main>
         <Nav />
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-24">
             <Welcome />
         </div>
     </main>

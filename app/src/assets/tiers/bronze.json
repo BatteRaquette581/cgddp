@@ -1,0 +1,39 @@
+{
+    "levels": [
+        {
+            "name": "Easy Demon",
+            "author": "Example",
+            "id": "1",
+            "skillset": "Wave",
+            "difficulty": "ezd"
+        },
+        {
+            "name": "Medium Demon",
+            "author": "Example",
+            "id": "2",
+            "skillset": "Nerve Control",
+            "difficulty": "md"
+        },
+        {
+            "name": "Hard Demon",
+            "author": "Example",
+            "id": "3",
+            "skillset": "Ship & Timings",
+            "difficulty": "hd"
+        },
+        {
+            "name": "Insane Demon",
+            "author": "Example",
+            "id": "4",
+            "skillset": "Timings",
+            "difficulty": "id"
+        },
+        {
+            "name": "Extreme Demon",
+            "author": "Example",
+            "id": "5",
+            "skillset": "Overall",
+            "difficulty": "exd"
+        }
+    ]
+}
