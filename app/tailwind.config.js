@@ -3,6 +3,9 @@ module.exports = {
   darkMode: "class",
   content: ["index.html", "src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      'sm': {'min': '0px', 'max': '767px'}
+    },
     extend: {
       colors: {
         "primary-dark": "#331d2c",

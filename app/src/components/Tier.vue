@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-gradient-to-bl to-transparent w-auto border-solid border-4 m-14 font-KumbhSans dark:text-white rounded-xl" style="height: 512px;" ref="tier">
+    <div class="bg-gradient-to-bl to-transparent w-auto border-solid border-4 m-14 font-KumbhSans dark:text-white rounded-xl" style="height: clamp(512px, 512px, auto);" ref="tier">
         <div class="text-center mt-4 text-3xl" :key="forceRender">{{ title }}</div>
         <br><br>
-        <div class="text-center mt-4 text-xl" :key="forceRender">{{ description }}</div>
+        <div class="text-center mt-4" :key="forceRender" style="line-height: 28px; font-size: clamp(1px, 18px, 18px);">{{ description }}</div>
         <br><br>
         <ul class="text-center text-lg">
             <li v-for="level in bronze.levels" :class="level.difficulty">

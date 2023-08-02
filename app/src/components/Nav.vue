@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="grid fixed top-0 w-full bg-primary-light dark:bg-primary-dark grid-cols-4 h-20 place-items-center dark:text-white border-b-4 border-secondary-dark dark:border-secondary-light">
+        <nav class="grid fixed top-0 w-full bg-primary-light dark:bg-primary-dark grid-cols-4 h-20 place-items-center dark:text-white border-b-4 border-secondary-dark dark:border-secondary-light" style="z-index: 1001;">
             <a href="/"><div class="font-KumbhSans text-2xl">CGDDP</div></a>
             <a href="https://discord.gg/gtuXdxEQA2" rel="noreferrer noopener" target="_blank"><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" alt="Join our Discord server!" class="h-12"></a>
             <button @click="toggleTheme"><img :src="toggleButtonSvg" :key="forceRender" alt="Toggle Theme" class="h-8"></button>
